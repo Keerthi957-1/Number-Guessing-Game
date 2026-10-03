@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing game</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+        <!--header content-->
+    <div class="header">
+        <div class="left-section">
+        <button class="header-logo">#</button>
+        <h1>Number/Quest</h1>
+        </div>
+        <div class="right-section">
+        <button class="header-dot"></button>
+        <p class="header-p">ONE NUMBER | SEVEN SHOTS</p>
+    </div>
+    </div>
+    <!--body content-->
+    <main class="content">
+    <p class="content-heading">LETS GUESSWORK.MORE GUT FEELING.</p> 
+    <h1>Find The Secret Number.</h1>
+    <p >One hidden number.A little logic.How close can you get?</p>
+   <div class="upper">
+    <p class="rules">Rules</p>
+    <ul>
+        <li>
+            Choose a value between 1 to 100
+        </li>
+        <li>
+          You will be given only 7 chances
+        </li>
+        <li>
+         Optimize your guesses based on hints
+        </li>
+    </ul>
+    </div>
+    <div class="game">
+        <div class="guess-container">
+     <input type="text" id="guessvalue" placeholder="Your guess...">
+     <button class="btn"id="guess">Guess</button>
+     <span id="counter">0</span>
+     </div>
+     <p id="hint">*Do the first guess to get hint!</p>
+     <button class="btn"id="restart" >Restart</button>
+     </div>
+    </main>
+   </body>
+   <script src="script.js"></script>
+</html>
