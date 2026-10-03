@@ -51,5 +51,5 @@ function increaseCounter(){
         }
     }
 restart.onclick = function(){
-    location.href="/game/index.html";
+    location.reload();
 }
